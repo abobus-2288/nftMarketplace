@@ -8,7 +8,7 @@ export const HeroSection = () => {
         <div className={styles.heroSection}>
             <div className={styles.heroSection__text}>
                 <h1>
-                    Discover digital art & Collect NFTs
+                    Dscover digital art & Collect NFTs
                 </h1>
                 <p>
                     NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT
