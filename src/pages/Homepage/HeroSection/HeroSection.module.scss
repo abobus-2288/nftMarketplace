@@ -1,0 +1,35 @@
+.heroSection {
+  @apply flex justify-between h-[544px];
+
+  .heroSection__text {
+    @apply flex flex-col h-full mt-[80px] max-w-[510px];
+
+    h1 {
+      @apply text-work-h1 font-bold;
+    }
+
+    p {
+      @apply text-work-body font-medium mt-[16px];
+    }
+
+    button {
+      @apply my-[30px] text-work-body;
+    }
+
+    .heroSection__stats {
+      @apply flex gap-[16px] font-sans text-work-body;
+
+      div {
+        @apply flex flex-col mr-[30px];
+
+        span {
+          @apply text-space-h4 font-bold;
+        }
+      }
+    }
+  }
+
+  .heroSection__highlightedNFT {
+    @apply flex flex-col bg-bg-secondary rounded-[23px] overflow-hidden h-full mt-[80px];
+  }
+}

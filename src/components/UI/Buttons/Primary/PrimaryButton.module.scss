@@ -1,0 +1,7 @@
+.primary {
+    @apply w-fit h-[60px] rounded-[20px] bg-action text-work-button flex text-white justify-center items-center px-[50px];
+
+    img {
+        @apply mr-2 w-5 h-5;
+    }
+}

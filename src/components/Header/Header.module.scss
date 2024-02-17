@@ -1,0 +1,19 @@
+.header {
+  @apply w-full h-[100px] flex items-center border-b-[1px];
+
+  .headerContent {
+    @apply container mx-auto flex justify-between items-center px-[50px];
+  }
+
+  .logo {
+    @apply h-8;
+  }
+
+  .nav {
+    @apply flex gap-4 items-center h-full;
+
+    a {
+      @apply text-white text-work-base font-sans mr-2.5;
+    }
+  }
+}
